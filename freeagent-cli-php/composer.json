@@ -1,0 +1,19 @@
+{
+    "name": "maaarghk/freeagent-cli-php",
+    "require": {
+        "league/oauth2-client": "^2.6",
+        "symfony/console": "^5.2",
+        "react/http": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Mark Gallagher",
+            "email": "mark@fts.scot"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
